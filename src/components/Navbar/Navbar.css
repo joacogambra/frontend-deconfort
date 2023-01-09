@@ -1,0 +1,98 @@
+.ContainerNavbar {
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+  flex-direction: column;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.UserContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.registerStyle {
+  margin: 10px;
+  padding: 0.3rem;
+  text-decoration: none;
+}
+
+.LogoHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+
+.Li-Navbar {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.TitleHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ul-Navbar,
+.registerStyle {
+  border-radius: 6mm;
+  background: none;
+  border: 1px solid #eee;
+  box-shadow: 0 0 2px black;
+}
+
+.Li-Navbar {
+  float: left;
+  list-style-type: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+li:hover,
+.Li-Navbar:hover {
+  background: #eee;
+  border-radius: 6mm;
+  cursor: pointer;
+}
+
+.desplegable-navbar:hover {
+  background: #eee;
+  border-radius: 6mm;
+  width: 110px;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.list-style-none {
+  color: black;
+  text-decoration: none;
+}
+
+.back-transparent-navbar {
+  background-color: rgba(250, 247, 247, 0.623) !important;
+}

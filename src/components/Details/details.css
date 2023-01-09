@@ -1,0 +1,44 @@
+.contain-details {
+    width: 70%;
+    min-height: 50vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(50, 50, 50, 0.438);
+    justify-content: space-around;
+}
+
+.detailLayout {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.foto-detail {
+    height: 350px;
+    object-fit: cover;
+    margin-right: 5%;
+}
+
+.texto-witch {
+    width: 400px;
+}
+
+.addcart-detail {
+    width: 160px;
+    padding: 0.2rem;
+    border-radius: 6mm;
+    margin-top: 0.5rem;
+    background-color: #c1b8ae;
+    border: none;
+}
+
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

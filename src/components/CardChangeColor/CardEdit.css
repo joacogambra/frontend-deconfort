@@ -1,0 +1,181 @@
+.card-change-color-edit {
+    /* position: relative; */
+    width: 320px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(50, 50, 50, 0.438);
+}
+
+.containerFavorits {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    min-height: 50vh;
+}
+
+.tittleMyFavs {
+    text-align: center;
+    font-family: emoji;
+}
+
+.containerButtonFavs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttonMoreFavs {
+    padding: 10px 10px;
+    background: #31394e;
+    color: #fff;
+    border-radius: 6mm;
+    cursor: pointer;
+    border: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title-name:hover {
+    color: #15297c;
+}
+
+.buttonDeleteFavs {
+    padding: 0.2rem;
+    border-radius: 6mm;
+    margin-top: 0.5rem;
+    background-color: #c1b8ae;
+    border: none;
+    width: 27%;
+    font-size: 17px;
+}
+
+.containerButtonDelete {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-watch {
+    position: relative;
+    height: 320px;
+}
+
+.watch {
+    position: absolute;
+    top: 200px;
+    left: -80px;
+    font-size: 8rem;
+    opacity: 0.5;
+    color: #303030;
+    transform: rotate(-70deg);
+}
+
+.share {
+    position: absolute;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 15px;
+    background: #fff;
+    color: #31394e;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 50px;
+    transition: .5s;
+    padding: 1px;
+    z-index: 2;
+}
+
+.share:hover {
+    transform: scale(1.1);
+}
+
+.watch-img {
+    max-width: 100%;
+    position: absolute;
+    width: 250px;
+    left: 100px;
+    opacity: 0;
+    z-index: 2;
+    border-radius: 10% 0% 50% 70%;
+}
+
+.watch-img.show {
+    opacity: 1;
+    object-fit: cover;
+}
+
+.info {
+    position: relative;
+    padding: 15px 20px;
+    z-index: 3;
+}
+
+.watch-name {
+    padding: 0 0 10px 0;
+}
+
+.title-name {
+    margin-bottom: 6px;
+    font-size: 1.8rem;
+    color: #303030;
+}
+
+.watch-name .new {
+    padding: 3px 10px;
+    background: #31394e;
+    color: #fff;
+    border-radius: 6mm;
+    cursor: pointer;
+}
+
+.h3-color {
+    font-size: 1.5;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.color-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-and-buy {
+    padding: 12px 20px;
+    background: #31394e;
+    color: #fff;
+    border-radius: 6mm;
+    cursor: pointer;
+}
+
+.icon-cart {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:1197px) {
+    .card-change-color {
+        width: 300px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .card-change-color-edit {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .card-change-color-edit {
+        width: 70%;
+    }
+}

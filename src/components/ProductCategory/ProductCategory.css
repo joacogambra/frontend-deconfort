@@ -1,0 +1,6 @@
+.cards-all-products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}

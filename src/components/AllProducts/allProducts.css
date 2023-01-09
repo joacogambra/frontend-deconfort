@@ -1,0 +1,40 @@
+.check-filter-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-all-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.buttonNewProduct {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
+}
+
+.filter-products {
+    width: 88%;
+    padding: 22px 16px;
+    border-top: 1px solid rgb(101, 76, 59);
+    border-bottom: 1px solid rgb(101, 76, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.container-filters {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

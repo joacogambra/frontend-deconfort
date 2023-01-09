@@ -1,0 +1,53 @@
+.paymentsBanner {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.buttonDeletePayments {
+    padding: 0.2rem;
+    border-radius: 6mm;
+    background: none;
+    border: none;
+    color: #4E5150;
+    position: absolute;
+    bottom: 83%;
+    left: 93%;
+    font-size: 23px;
+}
+
+.imgDeletePayments {
+    width: 15px;
+    height: 15px;
+}
+
+@media screen and (max-width: 1875px) {
+    .body-payments {
+        font-family: "Poppins", sans-serif;
+        height: 120vh;
+        width: 90%;
+        margin: 0px auto;
+        padding: 50px 0px 0px;
+        color: #4E5150;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body-payments {
+        font-family: "Poppins", sans-serif;
+        height: 220vh;
+        width: 90%;
+        margin: 0px auto;
+        padding: 50px 0px 0px;
+        color: #4E5150;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .body-payments {
+        font-family: "Poppins", sans-serif;
+        width: 90%;
+        margin: 0px auto;
+        padding: 50px 0px 0px;
+        color: #4E5150;
+    }
+}
